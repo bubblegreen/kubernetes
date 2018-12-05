@@ -1,3 +1,3 @@
-FROM k8s.gcr.io/kube-proxy:v1.12.3
+FROM k8s.gcr.io/kube-proxy:v1.13.0
 
 LABEL Author="xuhang<xuhangbird@hotmail.com>"
