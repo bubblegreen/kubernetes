@@ -1,15 +1,15 @@
 #! /bin/bash
 
-version=v1.13.0
+version=v1.20.0
 
 images=(
     kube-apiserver:${version}
     kube-controller-manager:${version}
     kube-scheduler:${version}
     kube-proxy:${version}
-    etcd:3.2.24
-    pause:3.1
-    coredns:1.2.6
+    etcd:3.4.13-0
+    pause:3.2
+    coredns:1.7.0
 )
 
 mirror=bubblegreen
